@@ -2,3 +2,24 @@
     font-family: $font-Roman;
     font-size: $size-medium;
 }
+
+@mixin medium_medium {
+    font-family:$font-Medium;
+    font-size: $size-medium;
+}
+
+@mixin roman_small {
+    font-family:$font-Roman;
+    font-size: $size-small;
+}
+
+@mixin itc_big {
+    font-family: $font-Itc;
+    font-size: $size-big;
+}
+
+@mixin itc_inter {
+    font-family: $font-Itc;
+    font-size: $size-inter;
+}
+

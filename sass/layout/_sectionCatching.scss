@@ -1,0 +1,30 @@
+.sectionCatching{
+    border: 20px solid red;
+        &__background{
+        
+           
+                background-image: url(../assets/picture/girlteam.png);
+                height: 50vh;
+                width: 100%;
+                background-size: cover;
+                background-position: center;
+            
+        
+        }
+        
+        
+    }
+    
+    
+            .heading {
+                text-align: center;
+                @include itc_inter;
+                &__img {
+                    height: 4.5rem;
+                    margin: 4rem 0 4rem 0; 
+                }
+
+                &__text{
+                    margin-bottom:5rem;
+                }
+            }

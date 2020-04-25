@@ -12,6 +12,9 @@ body {
   color: #052c33;
   box-sizing: border-box; }
 
+span {
+  display: block; }
+
 @font-face {
   font-family: 'Light';
   src: url("../assets/fonts/NeueHaasGrotesk/NeueHaasDisplay-Light.eot");
@@ -130,19 +133,35 @@ body {
   font-weight: normal;
   font-style: normal; }
 
-.bg--girlTeam {
-  background-image: url(../assets/picture/girlteam.png);
-  padding-top: 100%;
-  background-size: cover;
-  background-position: center; }
-
 .banner {
   background-color: #FFF0F0;
   height: 4.5rem;
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0; }
   .banner__content {
     font-family: "Roman";
     font-size: 1.65rem; }
+
+.sectionCatching {
+  border: 20px solid red; }
+  .sectionCatching__background {
+    background-image: url(../assets/picture/girlteam.png);
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center; }
+
+.heading {
+  text-align: center;
+  font-family: "itc";
+  font-size: 2.5rem; }
+  .heading__img {
+    height: 4.5rem;
+    margin: 4rem 0 4rem 0; }
+  .heading__text {
+    margin-bottom: 5rem; }
