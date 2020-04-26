@@ -1,4 +1,4 @@
-@mixin roman-medium {
+@mixin roman_medium {
     font-family: $font-Roman;
     font-size: $size-medium;
 }
@@ -11,6 +11,11 @@
 @mixin roman_small {
     font-family:$font-Roman;
     font-size: $size-small;
+}
+
+@mixin roman_inter {
+    font-family:$font-Roman;
+    font-size: $size-inter;
 }
 
 @mixin itc_big {

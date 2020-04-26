@@ -147,14 +147,22 @@ span {
     font-family: "Roman";
     font-size: 1.65rem; }
 
-.sectionCatching {
-  border: 20px solid red; }
-  .sectionCatching__background {
-    background-image: url(../assets/picture/girlteam.png);
-    height: 50vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center; }
+.hashtag {
+  padding: 2.5rem 0;
+  border-top: 1px solid #052c33;
+  border-bottom: 1px solid #052c33; }
+  .hashtag__text {
+    margin: 0 auto;
+    width: max-content;
+    font-family: "Roman";
+    font-size: 2.5rem; }
+
+.sectionCatching__background {
+  background-image: url(../assets/picture/girlteam.png);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center; }
 
 .heading {
   text-align: center;
@@ -165,3 +173,17 @@ span {
     margin: 4rem 0 4rem 0; }
   .heading__text {
     margin-bottom: 5rem; }
+
+.section-service {
+  border: 2px red solid; }
+  .section-service__box {
+    border: 2px green solid;
+    width: max-content;
+    margin: 2rem auto; }
+
+.items {
+  border: 5px violet solid; }
+  .items:not(:last-child) {
+    margin-bottom: 3rem; }
+  .items-box {
+    border: 2px yellow solid; }
