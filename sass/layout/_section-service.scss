@@ -1,0 +1,40 @@
+.section-service{
+    //border:2px red solid;
+    &__box{
+        //border:2px green solid;
+        max-width: 25rem;
+        margin: 5rem auto;
+    }
+}
+
+.items{
+    //border:5px violet solid;
+    
+    &:not(:last-child)
+    {
+        margin-bottom: 3rem;
+
+    }
+        &-box{
+            //border:2px yellow solid;
+            text-align: center;
+            
+            padding: 1rem;
+        
+
+            &__icon  {
+                height: 5rem;
+            }
+
+            &__heading {
+                @include itc-inter;
+                margin-top: 2rem;
+                margin-bottom: 1.8rem;
+            }
+
+            &__text{
+                
+                @include roman_small;
+            }
+        }
+}

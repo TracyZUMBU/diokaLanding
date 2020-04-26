@@ -18,10 +18,16 @@ $font-Bold:'Bold';
 $font-XThin:'XThin';
 $font-LightItalic:'LightItalic';
 $font-XThinItalic:'XThinItalic';
+$font-Itc:'itc';
 
-//size
+
 //font-size
 $size-huge:8rem;//76pt
 $size-big:5.5rem; //36pt
-$size-medium:1.65rem; //24pt
-$size-small: 1.23rem; //20pt
+$size-inter:2.5rem;
+$size-medium:1.9rem; //24pt
+$size-small: 1.8rem; //20pt
+
+
+//banner
+$bannerH:4.5rem; // height of the banner

@@ -1,11 +1,15 @@
 .banner {
     // text-align: center;
     background-color: $color-pink;
-    height: 4.5rem;
+    height:$bannerH;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+
 
     
     
