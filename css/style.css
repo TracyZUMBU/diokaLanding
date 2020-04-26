@@ -133,6 +133,11 @@ span {
   font-weight: normal;
   font-style: normal; }
 
+.heading__text {
+  font-family: "itc";
+  font-size: 2.5rem;
+  font-weight: 300; }
+
 .banner {
   background-color: #FFF0F0;
   height: 4.5rem;
@@ -159,20 +164,21 @@ span {
 
 .sectionCatching__background {
   background-image: url(../assets/picture/girlteam.png);
-  height: 50vh;
+  padding-top: 113%;
   width: 100%;
   background-size: cover;
   background-position: center; }
 
 .heading {
-  text-align: center;
-  font-family: "itc";
-  font-size: 2.5rem; }
+  text-align: center; }
   .heading__img {
     height: 4.5rem;
     margin: 4rem 0 4rem 0; }
   .heading__text {
-    margin-bottom: 5rem; }
+    font-family: "itc";
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+    font-weight: 300; }
 
 .section-service__box {
   max-width: 25rem;
@@ -187,8 +193,6 @@ span {
   .items-box__icon {
     height: 5rem; }
   .items-box__heading {
-    font-family: "itc";
-    font-size: 2.5rem;
     margin-top: 2rem;
     margin-bottom: 1.8rem; }
   .items-box__text {

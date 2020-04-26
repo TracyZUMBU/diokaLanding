@@ -4,7 +4,7 @@
         
            
                 background-image: url(../assets/picture/girlteam.png);
-                height: 50vh;
+                padding-top: 113%;
                 width: 100%;
                 background-size: cover;
                 background-position: center;
@@ -14,17 +14,7 @@
         
         
     }
-    
-    
-            .heading {
-                text-align: center;
-                @include itc_inter;
-                &__img {
-                    height: 4.5rem;
-                    margin: 4rem 0 4rem 0; 
-                }
-
-                &__text{
-                    margin-bottom:5rem;
-                }
+ 
+            .heading{
+                @include heading (4.5rem, 4rem 0 4rem 0)
             }

@@ -28,3 +28,16 @@
     font-size: $size-inter;
 }
 
+@mixin heading ($height, $margin) {
+    text-align: center;
+    &__img {
+        height: $height;
+        margin: $margin; 
+    }
+    
+    &__text{
+        @include itc_inter;
+        margin-bottom:5rem;
+        font-weight: $weight-small;
+    }
+}
