@@ -1,0 +1,18 @@
+.story-box{
+    padding: 6rem $paddingsectionRL;
+
+    &__text{
+        @include roman_medium;
+        margin: 3.5rem auto;
+      
+    }
+
+}
+
+.paragraph:not(:last-child){
+    margin-bottom: 2rem;
+}
+
+.signature{
+@include itc_small
+}

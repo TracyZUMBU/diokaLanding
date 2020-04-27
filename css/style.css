@@ -15,6 +15,11 @@ body {
 span {
   display: block; }
 
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block; }
+
 @font-face {
   font-family: 'Light';
   src: url("../assets/fonts/NeueHaasGrotesk/NeueHaasDisplay-Light.eot");
@@ -135,8 +140,10 @@ span {
 
 .heading__text {
   font-family: "itc";
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: 300; }
+  .heading__text--small {
+    font-size: 2.5rem; }
 
 .heading {
   text-align: center; }
@@ -144,15 +151,15 @@ span {
     height: 4.5rem;
     margin-bottom: 4rem; }
   .heading__img--2 {
-    height: 2rem;
+    height: 3rem;
     margin-bottom: 2rem; }
   .heading--2 {
     background-color: #FFF0F0; }
   .heading .heading__box--1 {
     padding-top: 4rem; }
   .heading .heading__box--2 {
-    padding-top: 11rem;
-    padding-bottom: 7rem; }
+    padding-top: 14rem;
+    padding-bottom: 9rem; }
 
 .banner {
   background-color: #FFF0F0;
@@ -163,7 +170,8 @@ span {
   align-items: center;
   position: sticky;
   position: -webkit-sticky;
-  top: 0; }
+  top: 0;
+  z-index: 1; }
   .banner__content {
     font-family: "Roman";
     font-size: 1.9rem; }
@@ -192,12 +200,25 @@ span {
       padding-top: 149%;
       background-size: cover;
       background-position: center; }
+    .bg-box__bg--sisters {
+      background-image: url(../assets/picture/sisters.jpg);
+      width: 100%;
+      padding-top: 69%;
+      background-size: cover;
+      background-position: center; }
   .bg-box__img--girlhair {
-    height: 25rem;
+    height: 31rem;
     position: absolute;
     top: 100%;
     left: 50%;
     transform: translate(-50%, -64%); }
+
+.section-insta {
+  padding: 0 3rem;
+  border-top: 2px solid #052c33;
+  border-bottom: 2px solid #052c33; }
+  .section-insta__box {
+    text-align: center; }
 
 .section-service__box {
   max-width: 25rem;
@@ -217,3 +238,17 @@ span {
   .items-box__text {
     font-family: "Roman";
     font-size: 1.8rem; }
+
+.story-box {
+  padding: 6rem 3rem; }
+  .story-box__text {
+    font-family: "Roman";
+    font-size: 1.9rem;
+    margin: 3.5rem auto; }
+
+.paragraph:not(:last-child) {
+  margin-bottom: 2rem; }
+
+.signature {
+  font-family: "itc";
+  font-size: 1.3rem; }

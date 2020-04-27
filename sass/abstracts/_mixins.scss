@@ -28,6 +28,11 @@
     font-size: $size-inter;
 }
 
+@mixin itc_small {
+    font-family: $font-Itc;
+    font-size: 1.3rem;
+}
+
 
 
 @mixin background ($padding) {

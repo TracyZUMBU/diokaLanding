@@ -1,4 +1,8 @@
 .heading__text {
-    @include itc_inter;
+    @include itc_big;
     font-weight: $weight-small;
+
+    &--small{
+        font-size: $size-inter;
+    }
 }

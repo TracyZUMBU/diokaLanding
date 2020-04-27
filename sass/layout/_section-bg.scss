@@ -1,0 +1,40 @@
+ 
+.bg-box {
+
+        position: relative;
+        
+        &__bg{
+        
+         
+                background-image: url(../assets/picture/girlteam.png);
+                // padding-top: 113%;
+                @include background (113%);
+
+                &--girlhair {
+                        background-image: url(../assets/picture/girlhair.jpeg);
+                        @include background (149%);
+
+                }
+
+                &--sisters{
+                        background-image: url(../assets/picture/sisters.jpg);
+                        @include background (69%);  
+                }
+         
+ 
+        }
+
+        &__img{
+                &--girlhair{
+                        height: 31rem;
+                        position: absolute;
+                        top: 100%;
+                        left: 50%;
+                        transform: translate(-50%, -64%);
+                }
+        }
+        
+
+}
+
+        
