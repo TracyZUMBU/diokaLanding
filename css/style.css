@@ -139,16 +139,20 @@ span {
   font-weight: 300; }
 
 .heading {
-  padding-bottom: 5rem;
-  padding-top: 4rem;
   text-align: center; }
-  .heading__img {
+  .heading__img--1 {
     height: 4.5rem;
     margin-bottom: 4rem; }
-  .heading__text {
-    font-family: "itc";
-    font-size: 2.5rem;
-    font-weight: 300; }
+  .heading__img--2 {
+    height: 2rem;
+    margin-bottom: 2rem; }
+  .heading--2 {
+    background-color: #FFF0F0; }
+  .heading .heading__box--1 {
+    padding-top: 4rem; }
+  .heading .heading__box--2 {
+    padding-top: 11rem;
+    padding-bottom: 7rem; }
 
 .banner {
   background-color: #FFF0F0;
