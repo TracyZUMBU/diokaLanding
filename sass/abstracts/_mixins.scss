@@ -28,15 +28,22 @@
     font-size: $size-inter;
 }
 
-@mixin heading ($height, $margin) {
+@mixin heading ($height, $marginB) {
     text-align: center;
     &__img {
         height: $height;
-        margin: $margin; 
+        margin-bottom: $marginB; 
     }
     
     &__text{
         @include itc_inter;
         font-weight: $weight-small;
     }
+}
+
+@mixin background ($padding) {
+    width: 100%;
+    padding-top: $padding;
+    background-size: cover;
+    background-position: center;
 }

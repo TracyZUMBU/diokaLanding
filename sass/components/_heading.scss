@@ -1,0 +1,5 @@
+.heading{
+    padding-bottom: 5rem;
+    padding-top:4rem;
+    @include heading (4.5rem, 4rem)
+}

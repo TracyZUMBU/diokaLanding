@@ -138,6 +138,18 @@ span {
   font-size: 2.5rem;
   font-weight: 300; }
 
+.heading {
+  padding-bottom: 5rem;
+  padding-top: 4rem;
+  text-align: center; }
+  .heading__img {
+    height: 4.5rem;
+    margin-bottom: 4rem; }
+  .heading__text {
+    font-family: "itc";
+    font-size: 2.5rem;
+    font-weight: 300; }
+
 .banner {
   background-color: #FFF0F0;
   height: 4.5rem;
@@ -162,23 +174,26 @@ span {
     font-family: "Roman";
     font-size: 2.5rem; }
 
-.sectionCatching__background {
-  background-image: url(../assets/picture/girlteam.png);
-  padding-top: 113%;
-  width: 100%;
-  background-size: cover;
-  background-position: center; }
-
-.heading {
-  padding-bottom: 5rem;
-  text-align: center; }
-  .heading__img {
-    height: 4.5rem;
-    margin: 4rem 0 4rem 0; }
-  .heading__text {
-    font-family: "itc";
-    font-size: 2.5rem;
-    font-weight: 300; }
+.bg-box {
+  position: relative; }
+  .bg-box__bg {
+    background-image: url(../assets/picture/girlteam.png);
+    width: 100%;
+    padding-top: 113%;
+    background-size: cover;
+    background-position: center; }
+    .bg-box__bg--girlhair {
+      background-image: url(../assets/picture/girlhair.jpeg);
+      width: 100%;
+      padding-top: 149%;
+      background-size: cover;
+      background-position: center; }
+  .bg-box__img--girlhair {
+    height: 25rem;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -64%); }
 
 .section-service__box {
   max-width: 25rem;
