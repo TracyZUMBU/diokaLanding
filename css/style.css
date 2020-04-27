@@ -133,6 +133,27 @@ span {
   font-weight: normal;
   font-style: normal; }
 
+.heading__text {
+  font-family: "itc";
+  font-size: 2.5rem;
+  font-weight: 300; }
+
+.heading {
+  text-align: center; }
+  .heading__img--1 {
+    height: 4.5rem;
+    margin-bottom: 4rem; }
+  .heading__img--2 {
+    height: 2rem;
+    margin-bottom: 2rem; }
+  .heading--2 {
+    background-color: #FFF0F0; }
+  .heading .heading__box--1 {
+    padding-top: 4rem; }
+  .heading .heading__box--2 {
+    padding-top: 11rem;
+    padding-bottom: 7rem; }
+
 .banner {
   background-color: #FFF0F0;
   height: 4.5rem;
@@ -157,22 +178,26 @@ span {
     font-family: "Roman";
     font-size: 2.5rem; }
 
-.sectionCatching__background {
-  background-image: url(../assets/picture/girlteam.png);
-  height: 50vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center; }
-
-.heading {
-  text-align: center;
-  font-family: "itc";
-  font-size: 2.5rem; }
-  .heading__img {
-    height: 4.5rem;
-    margin: 4rem 0 4rem 0; }
-  .heading__text {
-    margin-bottom: 5rem; }
+.bg-box {
+  position: relative; }
+  .bg-box__bg {
+    background-image: url(../assets/picture/girlteam.png);
+    width: 100%;
+    padding-top: 113%;
+    background-size: cover;
+    background-position: center; }
+    .bg-box__bg--girlhair {
+      background-image: url(../assets/picture/girlhair.jpeg);
+      width: 100%;
+      padding-top: 149%;
+      background-size: cover;
+      background-position: center; }
+  .bg-box__img--girlhair {
+    height: 25rem;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -64%); }
 
 .section-service__box {
   max-width: 25rem;
@@ -187,8 +212,6 @@ span {
   .items-box__icon {
     height: 5rem; }
   .items-box__heading {
-    font-family: "itc";
-    font-size: 2.5rem;
     margin-top: 2rem;
     margin-bottom: 1.8rem; }
   .items-box__text {

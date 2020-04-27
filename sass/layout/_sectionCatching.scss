@@ -1,30 +1,40 @@
-.sectionCatching{
+.section-bg{
     
-        &__background{
+       
         
-           
+    }
+ 
+.bg-box {
+
+        position: relative;
+        
+        &__bg{
+        
+         
                 background-image: url(../assets/picture/girlteam.png);
-                height: 50vh;
-                width: 100%;
-                background-size: cover;
-                background-position: center;
+                // padding-top: 113%;
+                @include background (113%);
+
+                &--girlhair {
+                        background-image: url(../assets/picture/girlhair.jpeg);
+                        @include background (149%);
+
+                }
             
         
         }
-        
-        
-    }
-    
-    
-            .heading {
-                text-align: center;
-                @include itc_inter;
-                &__img {
-                    height: 4.5rem;
-                    margin: 4rem 0 4rem 0; 
-                }
 
-                &__text{
-                    margin-bottom:5rem;
+        &__img{
+                &--girlhair{
+                        height: 25rem;
+                        position: absolute;
+                        top: 100%;
+                        left: 50%;
+                        transform: translate(-50%, -64%);
                 }
-            }
+        }
+        
+
+}
+
+        

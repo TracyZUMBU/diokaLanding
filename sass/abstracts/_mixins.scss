@@ -28,3 +28,11 @@
     font-size: $size-inter;
 }
 
+
+
+@mixin background ($padding) {
+    width: 100%;
+    padding-top: $padding;
+    background-size: cover;
+    background-position: center;
+}
