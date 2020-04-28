@@ -9,3 +9,29 @@
         
     
 }
+
+.row{
+    width:100%;
+    margin: 0 auto;
+
+    &::after{
+        content:'';
+        display: table;
+        clear: both;
+
+    }
+
+
+[class^="col-"] {
+    float:left; 
+    &:not(:last-child) {
+        margin-right: 2rem;
+    }
+
+}
+
+.col-1-of2 {
+    width: calc((100% - 2rem) / 2);
+
+}
+}

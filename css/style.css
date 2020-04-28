@@ -221,6 +221,20 @@ a {
   .section-insta__box {
     text-align: center; }
 
+.row {
+  width: 100%;
+  margin: 0 auto; }
+  .row::after {
+    content: '';
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 2rem; }
+  .row .col-1-of2 {
+    width: calc((100% - 2rem) / 2); }
+
 .section-service__box {
   max-width: 25rem;
   margin: 5rem auto; }
