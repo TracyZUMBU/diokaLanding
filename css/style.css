@@ -140,10 +140,16 @@ a {
 
 .heading__text {
   font-family: "itc";
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 300; }
   .heading__text--small {
-    font-size: 2.5rem; }
+    font-size: 1.8rem; }
+
+.encadrement {
+  padding: 5rem 3rem; }
+
+.marginB {
+  margin-bottom: 3rem; }
 
 .heading {
   text-align: center; }
@@ -161,6 +167,39 @@ a {
   .heading .heading__box--2 {
     padding-top: 14rem;
     padding-bottom: 9rem; }
+
+.row {
+  width: 100%;
+  margin: 0 auto; }
+  .row::after {
+    content: '';
+    display: table;
+    clear: both; }
+  .row:first-child {
+    margin-bottom: 1rem; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 1rem; }
+  .row .col-1-of-2 {
+    width: calc((100% - 1rem) / 2); }
+    .row .col-1-of-2--1 {
+      background-image: url(../../assets/picture/insta1.png);
+      padding-top: 50%;
+      background-size: cover; }
+    .row .col-1-of-2--2 {
+      background-image: url(../../assets/picture/insta2.png);
+      padding-top: 50%;
+      background-size: cover;
+      margin-right: 0; }
+    .row .col-1-of-2--3 {
+      background-image: url(../../assets/picture/insta3.png);
+      padding-top: 50%;
+      background-size: cover; }
+    .row .col-1-of-2--4 {
+      background-image: url(../../assets/picture/insta4.png);
+      padding-top: 50%;
+      background-size: cover; }
 
 .banner {
   background-color: #FFF0F0;
@@ -189,51 +228,81 @@ a {
 
 .bg-box {
   position: relative; }
-  .bg-box__bg {
+  .bg-box__bg--girlTeam {
     background-image: url(../assets/picture/girlteam.png);
     width: 100%;
     padding-top: 113%;
     background-size: cover;
     background-position: center; }
-    .bg-box__bg--girlhair {
-      background-image: url(../assets/picture/girlhair.jpeg);
-      width: 100%;
-      padding-top: 149%;
-      background-size: cover;
-      background-position: center; }
-    .bg-box__bg--sisters {
-      background-image: url(../assets/picture/sisters.jpg);
-      width: 100%;
-      padding-top: 69%;
-      background-size: cover;
-      background-position: center; }
+  .bg-box__bg--girlhair {
+    background-image: url(../assets/picture/girlhair.jpeg);
+    width: 100%;
+    padding-top: 149%;
+    background-size: cover;
+    background-position: center; }
+  .bg-box__bg--sisters {
+    background-image: url(../assets/picture/sisters.jpg);
+    width: 100%;
+    padding-top: 69%;
+    background-size: cover;
+    background-position: center; }
   .bg-box__img--girlhair {
-    height: 25rem;
+    height: 30rem;
     position: absolute;
     top: 100%;
     left: 50%;
     transform: translate(-50%, -64%); }
+  .bg-box__img--girlTeam {
+    height: 2rem;
+    position: absolute;
+    top: 2rem;
+    left: 2rem; }
+
+.inscription__box {
+  text-align: center;
+  font-family: "Roman";
+  font-size: 1.9rem; }
+
+.inscription__img {
+  margin-top: 3rem;
+  width: max-content; }
+  .inscription__img img {
+    height: 5rem; }
 
 .section-insta {
-  padding: 0 3rem;
   border-top: 2px solid #052c33;
   border-bottom: 2px solid #052c33; }
   .section-insta__box {
     text-align: center; }
 
-.row {
-  width: 100%;
-  margin: 0 auto; }
-  .row::after {
-    content: '';
-    display: table;
-    clear: both; }
-  .row [class^="col-"] {
-    float: left; }
-    .row [class^="col-"]:not(:last-child) {
-      margin-right: 2rem; }
-  .row .col-1-of2 {
-    width: calc((100% - 2rem) / 2); }
+a.heading__text {
+  margin-bottom: 3rem; }
+
+.newsletter {
+  border-bottom: 2px solid #052c33; }
+  .newsletter__box {
+    text-align: center; }
+
+.input {
+  position: relative; }
+  .input input {
+    border: none;
+    border-bottom: 1px solid #052c33;
+    padding-bottom: 1rem;
+    width: 100%; }
+    .input input::placeholder {
+      font-family: "Roman";
+      font-size: 1.1rem;
+      color: grey; }
+
+.logo-box {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translateY(-50%); }
+
+.logo {
+  height: 1.5rem; }
 
 .section-service__box {
   max-width: 25rem;

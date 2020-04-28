@@ -6,9 +6,13 @@
         &__bg{
         
          
-                background-image: url(../assets/picture/girlteam.png);
-                // padding-top: 113%;
-                @include background (113%);
+                
+                &--girlTeam{
+                        background-image: url(../assets/picture/girlteam.png);
+                        // padding-top: 113%;
+                        @include background (113%);
+
+                }
 
                 &--girlhair {
                         background-image: url(../assets/picture/girlhair.jpeg);
@@ -26,11 +30,18 @@
 
         &__img{
                 &--girlhair{
-                        height: 25rem;
+                        height: 30rem;
                         position: absolute;
                         top: 100%;
                         left: 50%;
                         transform: translate(-50%, -64%);
+                }
+
+                &--girlTeam{
+                        height: 2rem;
+                        position: absolute;
+                        top:2rem;
+                        left: 2rem;
                 }
         }
         

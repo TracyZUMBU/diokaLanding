@@ -3,6 +3,14 @@
     font-weight: $weight-small;
 
     &--small{
-        font-size: $size-inter;
+        font-size: $size-small;
     }
+}
+
+.encadrement{
+    padding: 5rem 3rem;
+}
+
+.marginB{
+    margin-bottom: 3rem;
 }

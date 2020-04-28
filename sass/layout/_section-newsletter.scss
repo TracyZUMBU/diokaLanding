@@ -1,0 +1,35 @@
+.newsletter {
+
+    border-bottom: $border ;
+    &__box{
+
+        text-align: center;
+    }
+}
+
+.input {
+    position: relative;
+    input{
+        border:none;
+        border-bottom:1px solid $color-green;
+        padding-bottom: 1rem;;
+        width: 100%;
+        
+        &::placeholder{
+            font-family: $font-Roman;
+            font-size: 1.1rem;
+            color: $color-grey;
+        }
+    }
+
+}
+        .logo-box{
+            
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            transform: translateY(-50%);
+        }
+        .logo{
+            height: 1.5rem;
+        }

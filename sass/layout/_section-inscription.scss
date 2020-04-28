@@ -1,0 +1,17 @@
+.inscription {
+
+    &__box{
+
+        text-align: center;
+        @include roman_medium;
+    }
+
+    &__img{
+        margin-top: 3rem;
+        width: max-content;
+
+        img{
+            height: 5rem;
+        }
+    }
+}

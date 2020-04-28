@@ -1,7 +1,7 @@
 .section-insta{
-    padding:0 $paddingsectionRL;
-    border-top:2px solid $color-green;
-    border-bottom:2px solid $color-green;
+    
+    border-top:$border;
+    border-bottom:$border;
 
     &__box{
         text-align: center;
@@ -10,28 +10,10 @@
     
 }
 
-.row{
-    width:100%;
-    margin: 0 auto;
 
-    &::after{
-        content:'';
-        display: table;
-        clear: both;
 
+
+a.heading__text {
+      margin-bottom: 3rem;
+      
     }
-
-
-[class^="col-"] {
-    float:left; 
-    &:not(:last-child) {
-        margin-right: 2rem;
-    }
-
-}
-
-.col-1-of2 {
-    width: calc((100% - 2rem) / 2);
-
-}
-}

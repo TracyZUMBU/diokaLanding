@@ -1,6 +1,7 @@
 //color
 $color-pink : #FFF0F0;
 $color-green: #052c33;
+$color-grey:grey;
 
 //font-family
 $font-BlackItalic:'BlackItalic';
@@ -23,7 +24,7 @@ $font-Itc:'itc';
 
 //font-size
 $size-huge:8rem;//76pt
-$size-big:3rem; //36pt
+$size-big:4rem; //36pt
 $size-inter:2.5rem;
 $size-medium:1.9rem; //24pt
 $size-small: 1.8rem; //20pt
@@ -37,3 +38,7 @@ $weight-small: 300;
 
 //margins
 $paddingsectionRL:3rem;
+
+
+//border
+$border:2px solid $color-green;
