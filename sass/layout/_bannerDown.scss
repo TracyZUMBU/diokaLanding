@@ -1,0 +1,24 @@
+.bannerDown{
+    position: sticky;
+    -webkit-position:sticky;
+    bottom: 0;
+    background-color: $color-green;
+    padding-bottom: 2rem;
+    &__box{
+        text-align: center;
+    }
+    p{
+        color: white;
+        @include roman_medium;
+        margin-bottom: 2rem;
+    }
+
+}
+
+.logo-insta {
+    margin-top: 2rem;
+    img{
+
+        height: 3.5rem;
+    }
+}

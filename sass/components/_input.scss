@@ -1,0 +1,43 @@
+.input {
+
+    position: relative;
+    input{
+        border:none;
+        border-bottom:1px solid $color-green;
+        padding-bottom: 1rem;;
+        width: 100%;
+        
+        &::placeholder{
+            font-family: $font-Roman;
+            font-size: 1.3rem;
+            color: $color-grey;
+        }
+
+        
+    }
+
+    &--pink{
+        
+        input{
+            background-color: transparent;
+            border-bottom:1px solid white;
+            color: white;
+            position: relative;
+        }
+    }
+
+
+}
+        .logo-box{
+            
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            transform: translateY(-50%);
+        }
+        .logo{
+
+            height: 1.5rem;
+
+         
+        }
