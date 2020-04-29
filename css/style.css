@@ -250,16 +250,16 @@ a {
   padding-bottom: 2rem; }
   .bannerDown__box {
     text-align: center;
-    padding: 0 3rem; }
+    padding: 1rem 3rem 0 3rem; }
   .bannerDown p {
     color: white;
     font-family: "Roman";
     font-size: 1.9rem;
     margin-bottom: 2rem; }
 
-.logo-insta {
+#logo-insta {
   margin-top: 2rem; }
-  .logo-insta img {
+  #logo-insta img {
     height: 3.5rem; }
 
 .arrow-up,
@@ -274,6 +274,9 @@ a {
   display: none; }
 
 #arrow-down {
+  display: none; }
+
+#logo-insta {
   display: none; }
 
 .hashtag {

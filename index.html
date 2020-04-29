@@ -15,19 +15,23 @@
                         var hidden = document.getElementById("phrase");
                         var showdown = document.getElementById("arrow-down");
                         var showup = document.getElementById("arrow-up")
+                        var insta = document.getElementById("logo-insta")
             hidden.style.display = "block";
             showdown.style.display = "block";
             showup.style.display = "none";
+            insta.style.display = "block";
            
                     }
 
             function showDown(){
+                var insta = document.getElementById("logo-insta")
                 var hidden = document.getElementById("phrase");
                 var showup = document.getElementById("arrow-up");
                 var showdown = document.getElementById("arrow-down");
             hidden.style.display = "none";
             showup.style.display = "block";
             showdown.style.display = "none";
+            insta.style.display = "none";
             }
        
 
@@ -226,7 +230,7 @@
         <div class="logo-box logo-box--pink"><img class="logo logo--pink" src="./assets/icons/arrow-right.png" alt=""></div>
     </div>
 
-    <div class="logo-insta"><img src="./assets/icons/instagram.png" alt=""></div>
+    <div id="logo-insta"><img src="./assets/icons/instagram.png" alt=""></div>
 
 </div>
 </section>
