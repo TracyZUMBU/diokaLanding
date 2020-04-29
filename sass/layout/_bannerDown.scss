@@ -6,6 +6,7 @@
     padding-bottom: 2rem;
     &__box{
         text-align: center;
+        padding: 0 3rem;
     }
     p{
         color: white;
@@ -21,4 +22,24 @@
 
         height: 3.5rem;
     }
+}
+
+.arrow-up,
+.arrow-down{
+   
+        height: 2rem;
+     
+}
+
+#arrow-up,
+#arrow-down{
+    margin-bottom: 2rem;
+}
+
+#phrase{
+    display: none;
+}
+
+#arrow-down{
+    display: none;
 }

@@ -249,7 +249,8 @@ a {
   background-color: #052c33;
   padding-bottom: 2rem; }
   .bannerDown__box {
-    text-align: center; }
+    text-align: center;
+    padding: 0 3rem; }
   .bannerDown p {
     color: white;
     font-family: "Roman";
@@ -260,6 +261,20 @@ a {
   margin-top: 2rem; }
   .logo-insta img {
     height: 3.5rem; }
+
+.arrow-up,
+.arrow-down {
+  height: 2rem; }
+
+#arrow-up,
+#arrow-down {
+  margin-bottom: 2rem; }
+
+#phrase {
+  display: none; }
+
+#arrow-down {
+  display: none; }
 
 .hashtag {
   padding: 2.5rem 0;
@@ -346,6 +361,9 @@ a.heading__text {
   .items-box__text {
     font-family: "Roman";
     font-size: 1.8rem; }
+
+ion-icon {
+  color: white; }
 
 .story-box {
   padding: 6rem 3rem; }
