@@ -3,8 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="css/icon-font.css" />
     <link rel="stylesheet" href="css/style.css" />
+
+
+    <script>
+        
+       
+                    
+                    function showUp() {
+                        var hidden = document.getElementById("phrase");
+                        var showdown = document.getElementById("arrow-down");
+                        var showup = document.getElementById("arrow-up")
+            hidden.style.display = "block";
+            showdown.style.display = "block";
+            showup.style.display = "none";
+           
+                    }
+
+            function showDown(){
+                var hidden = document.getElementById("phrase");
+                var showup = document.getElementById("arrow-up");
+                var showdown = document.getElementById("arrow-down");
+            hidden.style.display = "none";
+            showup.style.display = "block";
+            showdown.style.display = "none";
+            }
+       
+
+
+     
+      </script>
+
     <title>Document</title>
 </head>
 <body>
@@ -13,6 +43,7 @@
             Très prochainement !
         </p>
     </header>
+    
     <section class="section-bg">
         <div class="bg-box">
 
@@ -27,9 +58,9 @@
 
             <img src="./assets/icons/logo-dioka-right.svg" alt="logo guillemets" class="heading__img heading__img--1">
             <h1 class="heading__text">
-                <span >Vous n'aurez</span>
-                <span >plus peur d'aller</span>
-                <span >chez le coiffeur</span>
+                <span >Tout ce dont</span>
+                <span >vos cheveux ont besoin</span>
+                <span >réuni dans un seul site</span>
 
             </h1>
 
@@ -181,14 +212,15 @@
 </section>
 
 
-<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-    <path fill="#052c33" fill-opacity="1" d="M0,288L120,250.7C240,213,480,139,720,138.7C960,139,1200,213,1320,250.7L1440,288L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
-</svg> -->
 
-<!-- <section class="encadrement bannerDown">
-<div class="bannerDown__box ">
+<section class="bannerDown">
+<div class="  bannerDown__box ">
+    <div id="arrow-up" onClick="showUp()"> <img class="arrow-up" src="./assets/icons/double-up.png" alt=""></div>
 
-    <p>Restez connecté.e.s avec Dioka et suivez le lancement !</p>
+    <div id="arrow-down" onClick="showDown()"> <img class="arrow-down" src="./assets/icons/double-down.png" alt=""></div>
+   
+    <p id="phrase">Restez connecté.e.s avec Dioka et suivez le lancement !</p>
+    
     <div class="input input--pink">
         <input type="email" placeholder="Mon email">
         <div class="logo-box logo-box--pink"><img class="logo logo--pink" src="./assets/icons/arrow-right.png" alt=""></div>
@@ -197,7 +229,7 @@
     <div class="logo-insta"><img src="./assets/icons/instagram.png" alt=""></div>
 
 </div>
-</section> -->
+</section>
 
 </body>
 </html>
